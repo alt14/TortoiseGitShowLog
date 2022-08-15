@@ -10,6 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="TortoiseGit Show Log - QuickDrop Plugin.vipb" Type="Document" URL="../../../package/TortoiseGit Show Log - QuickDrop Plugin.vipb"/>
 		<Item Name="TortoiseGit Show Log.lvlib" Type="Library" URL="../TortoiseGit Show Log.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
