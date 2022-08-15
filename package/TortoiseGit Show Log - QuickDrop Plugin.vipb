@@ -1,9 +1,9 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-15 20:01:41" Modified_Date="2022-08-15 20:28:04" Creator="theta" Comments="" ID="c879bf6ccc0f4cc3f35aed7dbf07d934">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-15 20:01:41" Modified_Date="2022-08-15 20:45:40" Creator="theta" Comments="" ID="0bb3595bdf3215609fa361650e29c8aa">
   <Library_General_Settings>
     <Package_File_Name>Leah_Edwards_lib_TortoiseGit_Show_Log___QuickDrop_Plugin</Package_File_Name>
-    <Library_Version>1.0.1.2</Library_Version>
+    <Library_Version>1.0.2.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
-    <Library_Source_Folder>..</Library_Source_Folder>
+    <Library_Source_Folder>..\source</Library_Source_Folder>
     <Library_Output_Folder>..\build\packages</Library_Output_Folder>
     <Company_Name>Leah Edwards</Company_Name>
     <Library_Summary/>
@@ -44,7 +44,7 @@ See Product Homepage for more information.</Description>
       <Copyright/>
       <Packager>Leah Edwards</Packager>
       <URL/>
-      <Release_Notes>Fixed formatting issue with description, removed unused pallete, changed shortcut back to [G].</Release_Notes>
+      <Release_Notes>Changed source folder in package so it doesn't get copied twice!</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -151,7 +151,7 @@ See Product Homepage for more information.</Description>
         <Path>source</Path>
       </Place_Folder_Contents>
     </Source_Files>
-    <License_Agreement_Filepath>..\LICENSE.txt</License_Agreement_Filepath>
+    <License_Agreement_Filepath>..\source\TortoiseGit Show Log\LICENSE.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
