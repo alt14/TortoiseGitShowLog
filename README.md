@@ -11,7 +11,7 @@ QuickDrop Plugin for LabVIEW to bring up the TortoiseGit log for a VI, folder, l
 Tested on Windows 10, TortoiseGit 2.13.0.1 64-bit, Git version 2.35.3.windows.1 64-bit, LabVIEW 2018 32-bit.
 
 ## Installation
-###LabVIEW 2015, 2016, 2017
+### LabVIEW 2015, 2016, 2017
  - I backsaved but did not put this in the repo, see attachment to [post on NI forums](https://forums.ni.com/t5/Quick-Drop-Enthusiasts/TortoiseGit-Show-Log-QuickDrop-Shortcut/m-p/4249488).
 ### Manual Install
  - You can pull down this code and paste contents of source into *<LabVIEW 20xx>\resource\dialog\QuickDrop\plugins* or *&lt;LabVIEW Data>\Quick Drop Plugins*
