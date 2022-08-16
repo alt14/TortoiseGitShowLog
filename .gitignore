@@ -9,3 +9,6 @@
 *.aliases
 *.lvlps
 .cache/
+
+# Distributions
+/distr
