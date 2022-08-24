@@ -4,7 +4,7 @@ QuickDrop Plugin for LabVIEW to bring up the TortoiseGit log for a VI, folder, l
 ## Example Screenshot
 This screenshot shows the TortoiseGit log launched from a LabVIEW VI. It is showing the log for that particular VI, which can then be diffed using a right-click menu.
 
-[!Launching TortoiseGit Log from LabVIEW](\etc\screenshot_launch_log_LabVIEW.png)
+[!Launching TortoiseGit Log from LabVIEW](/etc/screenshot_launch_log_LabVIEW.png)
 
 ## Required Software
  - Git
