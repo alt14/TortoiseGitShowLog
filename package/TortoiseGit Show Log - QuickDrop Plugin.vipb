@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-15 20:01:41" Modified_Date="2022-08-15 20:45:40" Creator="theta" Comments="" ID="0bb3595bdf3215609fa361650e29c8aa">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-15 20:01:41" Modified_Date="2022-08-24 20:23:33" Creator="theta" Comments="" ID="2bae52bc3882a5698e865ecfb065bf47">
   <Library_General_Settings>
     <Package_File_Name>Leah_Edwards_lib_TortoiseGit_Show_Log___QuickDrop_Plugin</Package_File_Name>
-    <Library_Version>1.0.2.2</Library_Version>
+    <Library_Version>1.0.3.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\source</Library_Source_Folder>
     <Library_Output_Folder>..\build\packages</Library_Output_Folder>
@@ -28,11 +28,11 @@
     <VI_Package_Configuration_File>TortoiseGit Show Log - QuickDrop Plugin.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>QuickDrop Plugin for LabVIEW to bring up the TortoiseGit log for a VI, folder, library, class, repo etc.</One_Line_Description_Summary>
-      <Description>QuickDrop Plugin for LabVIEW to bring up the TortoiseGit log for a VI, folder, library, class, repo etc. It's most useful if you set up TortoiseGit as your diff tool - you can right click on 1 or more log entries to diff.
+      <Description>This QuickDrop Shortcut launches the TortoiseGit log for a VI, folder, library, repo, class, library or project. If you set up LVCompare as your TortoiseGit diff tool, the log is a handy way of selecting 1 or more log entries to diff. It saves having to come out of LabVIEW and find the file in Windows Explorer and navigating the huge TortoiseGit menu!
 
 &lt;b&gt;Arguments for QuickDrop Window: &lt;/b&gt;
-   &lt;nothing&gt;, file = this VI
-   folder, f, &lt;shift modifier&gt; = folder of VI on disk
+   [nothing], file = this VI
+   folder, f, [shift modifier] = folder of VI on disk
    repo, r = repo containing VI
    class, c = folder of class containing VI
    library, l = folder of library containing VI
@@ -43,8 +43,11 @@ Default Shortcut - [G]
 See Product Homepage for more information.</Description>
       <Copyright/>
       <Packager>Leah Edwards</Packager>
-      <URL/>
-      <Release_Notes>Changed source folder in package so it doesn't get copied twice!</Release_Notes>
+      <URL>https://forums.ni.com/t5/Quick-Drop-Enthusiasts/TortoiseGit-Show-Log-QuickDrop-Shortcut/td-p/4249488</URL>
+      <Release_Notes> - Updated package description 
+     -  replaced tags with '[ ]'  to solve formatting issues
+     - added detail
+ - Tidied VI window locations</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -113,12 +116,6 @@ See Product Homepage for more information.</Description>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>source</Path>
-        <Destination>11</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -129,21 +126,6 @@ See Product Homepage for more information.</Description>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>build</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>.gitignore</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>LICENSE</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>README.md</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>package</Path>
-      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
