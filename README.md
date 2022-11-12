@@ -1,4 +1,7 @@
+[![Image](https://www.vipm.io/package/leah_edwards_lib_tortoisegit_show_log___quickdrop_plugin/badge.svg?metric=installs)](https://www.vipm.io/package/leah_edwards_lib_tortoisegit_show_log___quickdrop_plugin/) [![Image](https://www.vipm.io/package/leah_edwards_lib_tortoisegit_show_log___quickdrop_plugin/badge.svg?metric=stars)](https://www.vipm.io/package/leah_edwards_lib_tortoisegit_show_log___quickdrop_plugin/) 
+
 # TortoiseGitShowLog
+
 QuickDrop Plugin for LabVIEW to bring up the TortoiseGit log for a VI, folder, library, class, repo etc. It's most useful if you set up TortoiseGit as your diff tool - you can right click on 1 or more log entries to diff. See [this NI Knowledge Article](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z0000019ZhbSAE&l=en-GB).
 
 ## Example Screenshot
